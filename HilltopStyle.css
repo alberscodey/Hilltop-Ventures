@@ -1,0 +1,160 @@
+html {
+    font-family: 'Lato', sans-serif;
+    color: #1d1f21;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+/******** Now for the Nav Bar ********/
+nav {
+    font-size: 1em;
+    position: fixed;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+nav a {
+    color: white;
+    margin-top: 10px;
+}
+#nav-btn {
+    text-decoration: none;
+    text-shadow: 0px 1px 2px gray;
+}
+#nav-btn:hover {
+    color: #1d1f21;
+    text-shadow: 0px 2px 5px gray;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav li {
+    padding: 0px 25px;
+}
+/******* I don't know anything about SEO but here goes *******/
+.hidden {
+    display: none;
+}
+/******* Body *******/
+body {
+    padding-top: 100px;
+}
+h1,h2 {
+    text-align: center;
+    margin-bottom: 4em;
+}
+p {
+    max-width: 500px;
+    text-align: justify;
+    display: block;
+    margin: auto;
+    padding-bottom: 2em;
+}
+footer{
+    margin-top: 6em;
+    text-align: center;
+}
+/******* Individual Page Styles *******/
+
+/***** Index *****/
+.index-body p {
+    margin-top: 13em;
+}
+.index-body a {
+    text-decoration: underline;
+    color: white;
+}
+.index-body a:hover {
+    color: #1d1f21;
+    text-shadow: 0px 2px 5px gray;
+}
+.index-body {
+    background: url(Images/hill-house.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 80px;
+    color: white;
+    text-shadow: 0px 1px 2px gray;
+}
+#index-photo-cred {
+    text-decoration: none;
+}
+
+/***** About *****/
+.about-body {
+    background: url(Images/cabin.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 80px;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+}
+#about-photo-cred {
+    text-decoration: none;
+    color: white;
+}
+#about-photo-cred:hover {
+    color: #1d1f21;
+    text-shadow: 0px 2px 5px black; 
+}
+
+/***** Listings *****/
+.listings-body {
+    background: url(Images/barn.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 80px;
+    color: white;
+    text-shadow: 0px 1px 2px black; 
+}
+.listings-body h2 {
+    margin-bottom: 3.5em;
+}
+.listings-body p {
+    margin-bottom: 12em;
+}
+#listings-photo-cred {
+    text-decoration: none;
+    color: white;
+}
+#listings-photo-cred:hover {
+    color: #1d1f21;
+    text-shadow: 0px 2px 5px black; 
+}
+
+/***** BnB *****/
+.bnb-body {
+    background: url() no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 80px;
+    margin-top: -102px;
+    color: white;
+    text-shadow: 0px 1px 2px black; 
+}
+#bnb-photo-cred {
+    text-decoration: none;
+    color: white;
+}
+#bnb-photo-cred:hover {
+    color: #1d1f21;
+    text-shadow: 0px 2px 5px black; 
+}
